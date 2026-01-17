@@ -7,7 +7,7 @@ if (isset($_POST['tambah'])){
     $email = $_POST['email'];
     $usia = $_POST['usia'];
 
-    $sql = "INSERT INTO peserta (nama, email, usia) VALUES ('$name', '$email', $usia)";
+    $sql = "INSERT INTO crud (nama, email, usia) VALUES ('$name', '$email', '$usia')";
     mysqli_query($conn, $sql);
 
     mysqli_close($conn);

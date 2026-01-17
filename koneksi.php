@@ -12,6 +12,6 @@ if (!$conn) {
     die("Tidak Terkoneksi".mysqli_connect_error());
 }
 else{
-    echo "terkoneksi";
+    echo "";
 }
 ?>
